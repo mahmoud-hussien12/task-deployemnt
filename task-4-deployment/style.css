@@ -1,0 +1,23 @@
+<style>
+    section[data-testid='stSidebar'] button{
+        width: 100%;
+    }
+    section[data-testid='stSidebar'] .element-container {
+        margin: 0;
+    }
+    section[data-testid='stSidebar'] div:first-child {
+        padding-left: 0;
+        padding-right: 0;
+        border-radius: 0;
+    }
+    section[data-testid='stSidebar'] button {
+        border: solid 1px;
+    }
+    button {
+        background-color: __primary_color__ !important;
+        color: __secondary_color__ !important;
+    }
+    button:hover {
+        background-color: gray !important;
+    }
+</style>
